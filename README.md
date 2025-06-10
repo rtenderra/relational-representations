@@ -9,6 +9,28 @@ This repository contains scripts for reproducing key statistical analyses and pl
 
 ---
 
+## 📁 Project Structure
+
+```text
+project-root/
+│
+├── data/
+│ └── data.csv # Raw dataset used for analysis
+│
+├── plots/ # Output directory for all figures
+│ └── ...
+│
+├── figure_1.py # Script for Figure 1
+├── figure_2.py # Script for Figure 2
+├── figure_3.py # Script for Figure 3 
+├── figure_4.py # Script for Figure 4
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
 ## ✅ Requirements
 
 Use the included `requirements.txt` file to install dependencies:
